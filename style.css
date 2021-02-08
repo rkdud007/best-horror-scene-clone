@@ -1,0 +1,92 @@
+body{
+    height: 100vh;
+}
+
+.large_box{
+    display: flex;
+  
+    
+}
+.main1{
+    background-color: #f0f0f0;
+    margin: 0;
+    position: fixed;
+    flex-grow: 33%;
+
+}
+.title_box{
+    width:528px;
+    height: 215.998px;
+    padding-top: 72px;
+    padding-left:72px;
+    padding-bottom: 72px;
+    
+}
+.title{
+    font-size: 72px;
+    font-family: 'Lexend Mega', sans-serif;
+    color:#e7473c;
+}
+.explain_box{
+    width:600px;
+    height: 506.1px;
+    
+}
+.explain_inner{
+    padding: 72px 72px 72px 72px;
+}
+.ex_1{
+    font-family: RingsideRegular-Book,Blank,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 1em;
+    color:#e7473c;
+}
+.ex_2{
+    font-size: 15px;
+    font-family: RingsideRegular-Book,Blank,Helvetica Neue,Helvetica,sans-serif;
+    text-align: justify;
+    color: #e7473c;
+    text-indent: -.5em;
+
+}
+.main2{
+    margin-left: 43%;
+    align-self: stretch;
+    flex-grow: 67%;
+}
+.item_box{
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: stretch;
+   
+}
+.item{
+    flex-basis: 480px;
+    background-color:#e7473c;
+    
+    padding-top: 48.2px;
+    padding-left: 72px;
+    padding-right: 72px;
+    
+}
+.item_header{
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    font-size: 22px;
+    color:#f0f0f0;
+}
+.director{
+    font-size: 13px;
+    color:#f0f0f0;
+    align-self: flex-end;
+}
+
+.video{
+    width: 537.6px;
+    height: 302.4px;
+    background-color: gray;
+}
